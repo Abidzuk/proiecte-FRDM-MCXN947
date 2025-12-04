@@ -1,8 +1,8 @@
 # MCXN947 Embedded Project Multi-App System
 
-Acest proiect reprezinta o aplicatie embedded dezvoltata pentru placa NXP FRDM-MCXN947, utilizand un Shield cu diverse periferice.
-
-Aplicatia implementeaza un sistem de meniuri bazat pe un State Machine, controlat prin DIP Switches, permitand rularea a 4 sub-aplicatii distincte.
+Acest proiect a fost realizat in cadrul cursului "NXP MCX Embedded Programing" Course. El reprezinta o aplicatie embedded dezvoltata pentru placa de la 
+NXP FRDM-MCXN947, utilizand un Shield cu diverse periferice (OLED, LED-uri, Senzori, Joystick, Encoder). Aplicatia implementeaza un sistem de meniuri 
+bazat pe o masina de stari (State Machine), controlat prin DIP Switches, permitand rularea a 4 sub-aplicatii distincte.
 
 ### Startup & Animatie Custom
 La pornire, sistemul ruleaza o animatie frame-by-frame, afisand succesiv 8 cadre pe ecranul OLED.
